@@ -1,0 +1,96 @@
+<div class="skeleton-card">
+        <div class="image-skeleton">
+        </div>
+        <div class="skeleton-text">
+            <h3 class="skeleton-name"></h3>
+            <div class="skeleton-detail">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="skeleton-card">
+        <div class="image-skeleton">
+        </div>
+        <div class="skeleton-text">
+            <h3 class="skeleton-name"></h3>
+            <div class="skeleton-detail">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="skeleton-card">
+        <div class="image-skeleton">
+        </div>
+        <div class="skeleton-text">
+            <h3 class="skeleton-name"></h3>
+            <div class="skeleton-detail">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="skeleton-card">
+        <div class="image-skeleton">
+        </div>
+        <div class="skeleton-text">
+            <h3 class="skeleton-name"></h3>
+            <div class="skeleton-detail">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="skeleton-card">
+        <div class="image-skeleton">
+        </div>
+        <div class="skeleton-text">
+            <h3 class="skeleton-name"></h3>
+            <div class="skeleton-detail">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="skeleton-card">
+        <div class="image-skeleton">
+        </div>
+        <div class="skeleton-text">
+            <h3 class="skeleton-name"></h3>
+            <div class="skeleton-detail">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="skeleton-card">
+        <div class="image-skeleton">
+        </div>
+        <div class="skeleton-text">
+            <h3 class="skeleton-name"></h3>
+            <div class="skeleton-detail">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="skeleton-card">
+        <div class="image-skeleton">
+        </div>
+        <div class="skeleton-text">
+            <h3 class="skeleton-name"></h3>
+            <div class="skeleton-detail">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>

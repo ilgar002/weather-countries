@@ -1,0 +1,832 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container {
+  background-color: #202c37;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.container header {
+  height: 80px;
+  background-color: #2b3945;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.container header .header-content {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .header-content .header-title {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container header .header-content .theme-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container header .header-content .theme-button .moon-icon {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container header .header-content .theme-button .sun-icon {
+  color: #202c37;
+  display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container header .header-content .theme-button .current-theme {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container main .main-content {
+  width: 90%;
+}
+
+.container main .main-content .tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.container main .main-content .tools .search-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2b3945;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 350px;
+  color: #cfcece;
+  padding: 12px;
+  border-radius: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container main .main-content .tools .search-area i {
+  margin-right: 12px;
+  font-size: 1.1rem;
+}
+
+.container main .main-content .tools .search-area form {
+  width: 100%;
+}
+
+.container main .main-content .tools .search-area form input {
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: none;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #cfcece;
+  font-size: 1.1rem;
+}
+
+.container main .main-content .tools .search-area form input::-webkit-input-placeholder {
+  color: #cfcece;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.container main .main-content .tools .search-area form input:-ms-input-placeholder {
+  color: #cfcece;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.container main .main-content .tools .search-area form input::-ms-input-placeholder {
+  color: #cfcece;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.container main .main-content .tools .search-area form input::placeholder {
+  color: #cfcece;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.container main .main-content .tools .region-filter {
+  background-color: #2b3945;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  width: 185px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container main .main-content .tools .region-filter .option {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container main .main-content .tools .region-filter i {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.container main .main-content .tools .region-filter i.rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.container main .main-content .tools .region-filter .options-dropdown {
+  position: absolute;
+  z-index: 100;
+  display: none;
+  left: 0;
+  top: 110%;
+  background-color: #2b3945;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container main .main-content .tools .region-filter .options-dropdown ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.container main .main-content .tools .region-filter .options-dropdown ul li {
+  list-style-type: none;
+  position: relative;
+}
+
+.container main .main-content .tools .region-filter .options-dropdown ul li:hover::after {
+  content: "";
+  position: absolute;
+  left: -5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.container main .main-content .tools .region-filter .options-dropdown.show {
+  display: block;
+}
+
+.container main .main-content .cards {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 70px;
+}
+
+.container main .main-content .cards .error-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-family: 'Lobster Two', cursive;
+}
+
+.container main .main-content .cards .error-message img {
+  width: 500px;
+}
+
+.container main .main-content .cards .error-message h6 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.container main .main-content .cards .skeleton-card {
+  width: 270px;
+  height: 350px;
+  background-color: #2b3945;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 3%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container main .main-content .cards .skeleton-card .image-skeleton {
+  height: 150px;
+  background-color: #747c83;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.container main .main-content .cards .skeleton-card .skeleton-text {
+  padding: 20px 20px 30px 20px;
+}
+
+.container main .main-content .cards .skeleton-card .skeleton-text .skeleton-name {
+  width: 150px;
+  height: 33px;
+  background-color: #747c83;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 4%;
+}
+
+.container main .main-content .cards .skeleton-card .skeleton-text .skeleton-detail {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.container main .main-content .cards .skeleton-card .skeleton-text .skeleton-detail div {
+  height: 24px;
+  background-color: #747c83;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 4%;
+}
+
+.container main .main-content .cards .skeleton-card .skeleton-text .skeleton-detail div:first-child {
+  width: 190px;
+}
+
+.container main .main-content .cards .skeleton-card .skeleton-text .skeleton-detail div:nth-child(2) {
+  width: 130px;
+}
+
+.container main .main-content .cards .skeleton-card .skeleton-text .skeleton-detail div:nth-child(3) {
+  width: 110px;
+}
+
+.container main .main-content .cards .skeleton-card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.container main .main-content .cards .flip-card {
+  width: 270px;
+  height: 350px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3%;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  color: black;
+  border-radius: 3%;
+  background-color: #2b3945;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-front .image-container {
+  height: 150px;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-front .image-container img {
+  width: 100%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-front .card-text {
+  padding: 20px 20px 30px 20px;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-front .card-text .country-name {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-front .card-text .country-detail {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-front .card-text .country-detail h6 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-front .card-text .country-detail h6 span {
+  color: #cfcece;
+  font-size: 1rem;
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  border-radius: 3%;
+  background-size: cover;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back .top .location {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back .top .location i {
+  font-size: 1.1rem;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back .bottom .icon {
+  width: 115px;
+  height: 115px;
+  position: relative;
+  top: 20px;
+  left: -15px;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back .bottom .icon img {
+  width: 100%;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back .bottom .temperature {
+  font-size: 3.7rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back .bottom .description {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  white-space: pre-line;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.thunderstorm {
+  background-image: url("../images/thunderstorm.jpg");
+  background-position: bottom;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.drizzle {
+  background-image: url("../images/drizzle.jpg");
+  background-position: top;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.rain {
+  background-image: url("../images/rain.jpg");
+  background-position: bottom;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.snow {
+  background-image: url("../images/snow.jpg");
+  background-position: left;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.atmosphere {
+  background-image: url("../images/atmosphere.jpg");
+  background-position: bottom;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.atmosphere .location {
+  color: #cabbbb;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.clear {
+  background-image: url("../images/clear.jpeg");
+  background-position: top;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.clouds {
+  background-image: url("../images/clouds.jpg");
+  background-position: left;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner .flip-card-back.clouds .top .location {
+  color: #202c37;
+}
+
+.container main .main-content .cards .flip-card .flip-card-inner.clickedVersion {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.container main .main-content .cards .flip-card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.container.light-mode {
+  background-color: #fafafa;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode header {
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container.light-mode header .header-title {
+  color: #202c37;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode header .theme-button .moon-icon {
+  display: none;
+}
+
+.container.light-mode header .theme-button .sun-icon {
+  display: block;
+  color: #202c37;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode header .theme-button .current-theme {
+  color: #202c37;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .search-area {
+  background-color: #fff;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .search-area i {
+  color: #737171;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .search-area form input {
+  color: #737171;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .search-area form input::-webkit-input-placeholder {
+  color: #7c7a7a;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .search-area form input:-ms-input-placeholder {
+  color: #7c7a7a;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .search-area form input::-ms-input-placeholder {
+  color: #7c7a7a;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .search-area form input::placeholder {
+  color: #7c7a7a;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .region-filter {
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container.light-mode main .main-content .tools .region-filter .option {
+  color: #737171;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .region-filter i {
+  color: #737171;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .region-filter .options-dropdown {
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .tools .region-filter .options-dropdown ul li:hover::after {
+  background-color: #737171;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .cards .skeleton-card {
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.container.light-mode main .main-content .cards .skeleton-card .image-skeleton {
+  background-color: #b0b5b9;
+}
+
+.container.light-mode main .main-content .cards .skeleton-card .skeleton-text .skeleton-name {
+  background-color: #b0b5b9;
+}
+
+.container.light-mode main .main-content .cards .skeleton-card .skeleton-text .skeleton-detail div {
+  background-color: #b0b5b9;
+}
+
+.container.light-mode main .main-content .cards .flip-card {
+  cursor: pointer;
+}
+
+.container.light-mode main .main-content .cards .flip-card .flip-card-inner .flip-card-front {
+  background-color: #fff;
+}
+
+.container.light-mode main .main-content .cards .flip-card .flip-card-inner .flip-card-front .card-text .country-name {
+  color: #202c37;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .cards .flip-card .flip-card-inner .flip-card-front .card-text .country-detail h6 {
+  color: #202c37;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .cards .flip-card .flip-card-inner .flip-card-front .card-text .country-detail h6 span {
+  color: #2b3945;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container.light-mode main .main-content .cards .error-message {
+  color: #202c37;
+}
+
+@media (max-width: 768px) {
+  .container main .main-content .tools .search-area {
+    width: 310px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container header .header-content .header-title {
+    font-size: 1.5rem;
+  }
+  .container header .header-content .theme-button .current-theme {
+    display: none;
+  }
+  .container header .header-content .theme-button .sun-icon {
+    font-size: 2rem;
+  }
+  .container header .header-content .theme-button .moon-icon {
+    font-size: 2rem;
+  }
+  .container main .main-content .tools .search-area {
+    padding: 10px;
+    width: 190px;
+    white-space: inherit;
+  }
+  .container main .main-content .tools .search-area i {
+    margin-right: 8px;
+  }
+  .container main .main-content .tools .search-area form {
+    height: 100%;
+  }
+  .container main .main-content .tools .search-area form input::-webkit-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container main .main-content .tools .search-area form input:-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container main .main-content .tools .search-area form input::-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  .container main .main-content .tools .search-area form input::placeholder {
+    font-size: 0.9rem;
+  }
+  .container main .main-content .tools .search-area form input::-webkit-input-placeholder::before {
+    content: "salam";
+  }
+  .container main .main-content .tools .search-area form input:-ms-input-placeholder::before {
+    content: "salam";
+  }
+  .container main .main-content .tools .search-area form input::-ms-input-placeholder::before {
+    content: "salam";
+  }
+  .container main .main-content .tools .search-area form input::placeholder::before {
+    content: "salam";
+  }
+  .container main .main-content .tools .search-area form input::-webkit-input-placeholder {
+    content: "Line 1\A Line 2\A Line 3\A";
+  }
+  .container main .main-content .tools .region-filter {
+    width: 130px;
+  }
+  .container main .main-content .tools .region-filter .current {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
